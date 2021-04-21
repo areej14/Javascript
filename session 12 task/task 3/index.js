@@ -1,6 +1,6 @@
 var i= 0;
 var divs = document.getElementById('imgs')
-var pic =["img/1.jpg" , "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg"];
+var pic =["img/1.jpg" , "img/2.jpg", "img/3.jpg", "img/4.jpg", "img/5.jpg","img/6.jpg"];
 var btn = document.getElementById('btn1')
 btn.addEventListener('click', prev)
 var btn = document.getElementById('btn2')
@@ -16,12 +16,7 @@ function prev() {
           i--;
          return change();
       }
-     
-    // else
-    //     {
-    //     i=0;
-    //     return change();
-    //     }
+    
 };
 function next() {
      if(i == pic.length-1)
@@ -33,12 +28,7 @@ function next() {
         i++;
         return change();
      }
-    
-      //  else
-      //  {
-      //  i=0;
-      //  return change();
-      //  }
+
 };
     function change(){
        
