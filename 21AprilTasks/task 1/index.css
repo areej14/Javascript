@@ -1,0 +1,32 @@
+html{
+    background: radial-gradient( white ,rgb(51, 113, 163));
+    height: 100%;
+    width: 100%;
+}
+#parent{
+background-color: rgb(119, 185, 223);
+height: 300px;
+width: 500px;
+margin-left: 31%;
+margin-top: 5%;
+}
+input{
+    margin-left: 29%;
+    margin-top: 12%;
+    padding: 15px;
+    background-color: rgb(118, 181, 218);
+    outline: none;
+    text-align: center;
+}
+#btn{
+    margin-top: 5%;
+    margin-left: 38%;
+    background: radial-gradient( white ,rgb(121, 201, 238));
+    padding: 8px;
+}
+h3{
+    padding-left: 37%;
+    background-color: rgb(126, 190, 250);
+    height: 50px;
+    
+}
