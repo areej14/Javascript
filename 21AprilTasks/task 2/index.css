@@ -1,29 +1,52 @@
 .container{
     border:  5px solid rgb(155, 168, 82);
-    margin-top: 2%;
-    margin-left: 35%;
-    margin-right: 35%;
+    margin-left: auto ;
+    margin-right: auto;
+    height: 300px;
+    width: 300px;
 
 }
 #wrapper{
-    margin-bottom: 25%;
-    margin-left: 28%;
+    text-align: center;
+    margin-bottom: 4%;
 
+}
+#btn1{
+    position: relative;
+    padding: 3%;
+    border-radius: 10%;
+    background: radial-gradient(rgb(247, 243, 246),  rgb(214, 228, 135));
+    font-size: 37px;
+}  
+#btn2{
+    
+    padding: 3%;
+    font-size: 37px;
+    border-radius: 10%;
+    background: radial-gradient(rgb(247, 243, 246),  rgb(214, 228, 135));
+   
+    position: relative;
+    
+}
+#btn3{
+     font-size: 26px;
+     border-radius: 10%;
+    background: radial-gradient(rgb(247, 243, 246),  rgb(214, 228, 135));
+   
+     position: relative;
+    
 }
 h4{
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
 }
 h3{
     text-align: center;
     font-size: 45px;
     padding-top: 10px;
+}
 
     
-}
-button{
-    padding: 5%;
-    margin-right: 9px;
-    border-radius: 40%;
-    background: radial-gradient(rgb(247, 243, 246),  rgb(214, 228, 135));
-}
+
+    
+   
