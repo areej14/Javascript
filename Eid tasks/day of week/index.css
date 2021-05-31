@@ -1,0 +1,17 @@
+body{
+    background-color: black;
+}
+h2{
+    text-align: center;
+    color: azure;
+
+}
+#day,#date{
+    text-align: center;
+
+}
+#container{
+    border: 7px solid rgb(54, 160, 54);
+    border-radius: 20%;
+    background-color: rgb(146, 241, 178);
+}

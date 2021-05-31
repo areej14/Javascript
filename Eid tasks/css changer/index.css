@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(192, 238, 133);
+}
+.child{
+    text-align: center;
+    margin:  auto;
+    margin-top: 10%;
+    font-family: "arial";
+     background-color: rgb(236, 225, 247)
+}
+#orange{
+    background-color: orange;
+    height: 15px;
+    width:15px;
+}
+#blue{
+    height: 15px;
+    width:15px;
+    background-color: blue;
+}
+#red{
+    height: 15px;
+    width:15px;
+    background-color: red;
+}
+#green{
+    height: 15px;
+    width:15px;
+    background-color: green;
+}
+.options{
+    background-color: rgb(172, 202, 89);
+    display:flex;
+    flex-wrap:wrap;
+
+
+}
+ .style,.color,.font,.family{
+     flex-direction: row;
+    margin: 0 auto;
+}
