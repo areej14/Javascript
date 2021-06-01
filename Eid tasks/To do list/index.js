@@ -3,7 +3,8 @@ btn.addEventListener('click',function(){
     var text=document.getElementById('type');
     var list=document.getElementById('list')
     var lis = document.createElement('li');
-    if(text.value==" ")
+    var word = text.value;
+    if(text.value==" " || word.trim().length==0)
     alert("please write some task")
     else{
     lis.innerText = text.value;
